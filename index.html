@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>AppCommune</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      background-color: #f5f5f5;
+      color: #333;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #007ACC;
+    }
+
+    select, button {
+      padding: 0.5em;
+      font-size: 1em;
+      margin-top: 0.5em;
+      margin-right: 0.5em;
+    }
+
+    #infos {
+      background: white;
+      padding: 1em;
+      margin-top: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #007ACC;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: gray;
+      text-align: center;
+    }
+    h1 {
+  color: #007ACC;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>Trouvez votre Centre scolaire !</h1>
+
+  <label for="commune">Choisissez une commune :</label><br />
+  <select id="commune">
+    <option value="">-- Sélectionnez --</option>
+  </select>
+  <button id="reset">Réinitialiser</button>
+
+  <div id="infos"></div>
+
+  <footer>
+    &copy; 2025 AppCommune - OISO
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
